@@ -301,7 +301,7 @@ To run unit test you need following to dos:
 ![](Images/Unit-Tests.PNG)
 
 ## Postman Script
- Donlowd postman script do test this application from [here](Postman/Trov.postman_collection.json)
+ Download postman script do test this application from [here](Postman/Trov.postman_collection.json)
  
 ## TODOs
 1. Add more checking in database when Authenticating
