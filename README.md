@@ -2,25 +2,23 @@
 Become a merchant and order finest items online from Gilded Rose Inn
 
 #### Table of content
-1. Quick Start
-2. Prerequisites
-3. Environment Setup
-   - IIS or IIS Express
-   - Publish Database
-4. Resources
-   - Authentication
-   - Inventory
-   - Purchase
-   - User
-5. API Architecture
-   - Three tier architecture
-   - Repository Pattern
-   - Unit of Work
-   - Dependency Injection
-6. Database
-7. Running Tests
-8. Postman script
-8. TODOs
+1. [Quick Start](#quick-start)
+2. [Prerequisites](#prerequisites)
+3. [Environment Setup](environment-setup)
+4. [Resources](#resources)
+   - [Authentication](#authentication)
+   - [Inventory](#inventory)
+   - [Purchase](#purchase)
+   - [User](#user)
+5. [API Architecture](#api-architecture)
+   - [Three tier architecture](#three-tier-achitecture)
+   - [Repository Pattern](#repository-pattern)
+   - [Unit of Work](#unit-of-work)
+   - [Dependency Injection](#dependency-injection)
+6. [Database](#database)
+7. [Running Tests](#running-tests)
+8. [Postman script](#postman-script)
+8. [TODOs](#todos)
 
 ## Quick Start
 Several quick start options are available:
