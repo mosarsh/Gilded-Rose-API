@@ -90,8 +90,16 @@
     <Compile Include="Purchase_Inventory.cs">
       <DependentUpon>DatabaseContext.tt</DependentUpon>
     </Compile>
+    <Compile Include="Repository\IInventoryRepository.cs" />
+    <Compile Include="Repository\InventoryRepository.cs" />
+    <Compile Include="Repository\IPurchaseInventoryRepository.cs" />
+    <Compile Include="Repository\IPurchaseRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\IUserRepository.cs" />
+    <Compile Include="Repository\PurchaseInventoryRepository.cs" />
+    <Compile Include="Repository\PurchaseRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="User.cs">
       <DependentUpon>DatabaseContext.tt</DependentUpon>
     </Compile>
