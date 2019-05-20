@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Audit]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Payload] NVARCHAR(MAX) NULL
+)
