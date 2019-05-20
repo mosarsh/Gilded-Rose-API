@@ -4,7 +4,7 @@ Become a merchant and order finest items online from Gilded Rose Inn
 #### Table of content
 1. [Quick Start](#quick-start)
 2. [Prerequisites](#prerequisites)
-3. [Environment Setup](environment-setup)
+3. [Environment Setup](#environment-setup)
 4. [Resources](#resources)
    - [Authentication](#authentication)
    - [Inventory](#inventory)
