@@ -77,6 +77,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DatabaseContext.edmx</DependentUpon>
     </Compile>
+    <Compile Include="DI\RepoNinjectModule.cs" />
     <Compile Include="Inventory.cs">
       <DependentUpon>DatabaseContext.tt</DependentUpon>
     </Compile>
