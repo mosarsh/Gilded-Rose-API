@@ -8,10 +8,6 @@ namespace GildedRose.DTO
     public class UserResponseModel
     {
         /// <summary>
-        /// User Id
-        /// </summary>
-        public int UserId { get; set; }
-        /// <summary>
         /// User First Name
         /// </summary>
         public string FirstName { get; set; }

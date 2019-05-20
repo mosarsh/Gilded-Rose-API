@@ -13,10 +13,10 @@ namespace GildedRose.DL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Entities : DbContext
+    public partial class DatabaseContext : DbContext
     {
-        public Entities()
-            : base("name=Entities")
+        public DatabaseContext()
+            : base("name=DatabaseContext")
         {
         }
     

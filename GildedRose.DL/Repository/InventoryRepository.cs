@@ -7,8 +7,8 @@ namespace GildedRose.DL.Repository
     /// </summary>
     public class InventoryRepository : Repository<Inventory>, IInventoryRepository
     {
-        private readonly Entities dbContext;
-        public InventoryRepository(Entities context) : base(context)
+        private readonly DatabaseContext dbContext;
+        public InventoryRepository(DatabaseContext context) : base(context)
         {
             dbContext = context;
         }

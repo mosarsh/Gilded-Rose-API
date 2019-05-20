@@ -11,14 +11,14 @@ namespace GildedRose.DL.UoW
         /// <summary>
         /// Db context
         /// </summary>
-        private readonly Entities _context;
+        private readonly DatabaseContext _context;
 
         /// <summary>
         /// Constructor to initialize DB context
         /// </summary>
         public UnitOfWork()
         {
-            _context = new Entities();
+            _context = new DatabaseContext();
         }
 
         private IInventoryRepository _inventoryRepository;

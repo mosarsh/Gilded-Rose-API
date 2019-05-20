@@ -23,7 +23,7 @@ namespace GildedRose.BL.DI
                 config.ConstructServicesUsing(type => context.Kernel.Get(type));
 
                 config.CreateMap<Inventory, InventoryModel>();
-                config.CreateMap<User, UserResponseModel>();
+                config.CreateMap<User, UserResponseModel>(MemberList.None);
                 config.CreateMap<User, UserIdentityModel>(MemberList.None);
             });
 
