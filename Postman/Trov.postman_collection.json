@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "a324f2c5-2cad-4d76-b4f2-509f5b3f6464",
+		"name": "Trov",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Email\": \"arshak.movsissian@gmail.com\",\n\t\"Password\": \"Pa55word\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/gildedrose.api/v1/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gildedrose.api",
+						"v1",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Inventory",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/gildedrose.api/v1/inventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gildedrose.api",
+						"v1",
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Purchase Inventory",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFyc2hhay5tb3ZzaXNzaWFuQGdtYWlsLmNvbSIsIm5iZiI6MTU1ODM4OTI4OSwiZXhwIjoxNTU4Mzg5ODg5LCJpYXQiOjE1NTgzODkyODl9._UEo7SS5z8QOUgult7NmKAwr4vt9Ml14AetNH7tKHuY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n[\n\t\t{\n\t\t\t\"Id\":48,\n\t\t\t\"Quantity\": 1\n\t\t},\n\t\t{\n\t\t\t\"Id\":44,\n\t\t\t\"Quantity\": 1\n\t\t}\n]"
+				},
+				"url": {
+					"raw": "http://localhost/gildedrose.api/v1/purchase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gildedrose.api",
+						"v1",
+						"purchase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFyc2hhayIsIm5iZiI6MTU1NzY3NjAwNCwiZXhwIjoxNTU3Njc2NTQzLCJpYXQiOjE1NTc2NzYwMDR9.2feswGZQj-hlyhsoj7xznJczX908J0cXZy0xMpt3UuQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"FirstName\" : \"Arshak\",\n    \"LastName\":\"Movsisyan\",\n    \"Email\":\"arshak.movsissian1@gmail.com\",\n    \"Password\":\"Pa55word\",\n    \"ConfirmPassword\":\"Pa55word\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/gildedrose.api/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gildedrose.api",
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
