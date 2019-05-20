@@ -91,7 +91,7 @@ Request body
 
 Request format: `application/json`
 
-[image]
+![](Images/Get-Toke.PNG)
 
 Example Response
 ```
@@ -109,7 +109,7 @@ Request example:
 GET api/Inventory
 ```
 
-[image]
+![](Images/Get-Inventory.PNG)
 
 Example response
 ```
@@ -199,7 +199,7 @@ Request body
 
 Request format: `application/json`
 
-[image]
+![](Images/Purchase-Item.PNG)
 
 
 #### User
@@ -226,7 +226,7 @@ Request body
 ```
 Request format: `application/json`
 
-[image]
+![](Images/Add-User.PNG)
 
 ## API Architecture
 
@@ -270,8 +270,6 @@ Unit of Work is referred to as a single transaction that involves multiple opera
 - Helps to enable loose coupling, which is important in application programming.
 
 
-
-
 ## Database
 Database project is created for application. Database first approach has been chosen. 
 
@@ -301,4 +299,4 @@ To run unit test you need following to dos:
 - Open **Test > Windows > Test Explorer**
 - Run All tests
 
-[image]
+![](Images/Unit-Tests.PNG)
