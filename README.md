@@ -19,6 +19,7 @@ Become a merchant and order finest items online from Gilded Rose Inn
    - Dependency Injection
 6. Database
 7. Running Tests
+8. Postman script
 8. TODOs
 
 ## Quick Start
@@ -300,3 +301,13 @@ To run unit test you need following to dos:
 - Run All tests
 
 ![](Images/Unit-Tests.PNG)
+
+## Postman Script
+ Donlowd postman script do test this application from [here](Postman/Trov.postman_collection.json)
+ 
+## TODOs
+1. Add more checking in database when Authenticating
+2. Add Error handing mechanism
+3. Move strings in a seperate peoject call GildedRose.Constants
+4. Add Valiadtion to models
+5. Implement lock mechanism in SQL
