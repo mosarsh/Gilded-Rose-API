@@ -13,8 +13,9 @@ namespace GildedRose.BL.Auth
     {
         /// <summary>
         /// Secrect key taken from app.config
+        /// TODO: Take it into app.config
         /// </summary>
-        private static string SecretKey = ConfigurationManager.AppSettings["SecretKey"];
+        private static string SecretKey = "JIOBLi6eVjBpvGtWBgJzjWd2QH0sOn5tI8rIFXSHKijXWEt/3J2jFYL79DQ1vKu+EtTYgYkwTluFRDdtF41yAQ==";
 
         /// <summary>
         /// Method to generate JWT token
