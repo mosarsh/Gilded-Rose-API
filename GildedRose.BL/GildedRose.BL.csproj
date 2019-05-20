@@ -50,6 +50,7 @@
       <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.4.0\lib\net461\System.IdentityModel.Tokens.Jwt.dll</HintPath>
@@ -63,6 +64,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auth\IJwtAuthManager.cs" />
+    <Compile Include="Auth\JwtAuthManager.cs" />
+    <Compile Include="DI\AutoMapperModule.cs" />
+    <Compile Include="DI\ServiceNinjectModule.cs" />
     <Compile Include="Logics\IInventoryLogic.cs" />
     <Compile Include="Logics\InventoryLogic.cs" />
     <Compile Include="Logics\IPurchaseLogic.cs" />
@@ -85,5 +90,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
