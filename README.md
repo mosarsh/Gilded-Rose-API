@@ -283,7 +283,7 @@ You can always work on database optimization separately.
 
 Here is the database table design that has been created:
 
-[image]
+
 
 **The important case is that one user can purchase many items and one item can be purchase by many different users.**
 
