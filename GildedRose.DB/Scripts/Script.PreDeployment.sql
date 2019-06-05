@@ -12,7 +12,7 @@
 
 IF  NOT EXISTS (SELECT 1 FROM sys.databases WHERE name = N'GildedRose.DB')
     BEGIN
-        CREATE DATABASE [GildedRose]
+        CREATE DATABASE [GildedRose.DB]
     END;
 
 GO
